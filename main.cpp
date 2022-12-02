@@ -6,8 +6,8 @@ void isVovel();
 using namespace std;
 
 int main() {
-    //findLargestNumber();
-    //isVovel();
+    findLargestNumber();
+    isVovel();
 
     return 0;
 }
@@ -29,6 +29,13 @@ void findLargestNumber() {
     else
         cout << text << c;
 }
+
+
+// Samomgłoski i spółgłoski, zadzierają w górę noski!
+// bez nich książki i gazety,
+// nie potrzebne są niestety,
+// i nieważne wszstkie akta,
+//i kontrakty także też!
 
 void isVovel() {
 
